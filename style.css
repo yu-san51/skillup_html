@@ -249,5 +249,79 @@ h1{
 	margin-top: 20px;
 }
 
+/*contact*/
+.contact{
+	width: 100%;
+}
+.contact-wrapper{
+	width: 800px;
+	margin: 0 auto;
+	padding: 90px 0;
+}
+.contact-text{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.contact-head{
+	font-size: 32px;
+	color: #000000;
+	padding-bottom: 8px;
+}
+.border{
+	width: 70px;
+	border-bottom: 3px solid #ec715f;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+.contact-text > p{
+	font-size: 16px;
+	color: #000000;
+}
+/*contact-box*/
+.contact-box::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.left-content{
+	width: 400px;
+	float: left;
+}
+.information{
+	margin: 0 auto;
+	width: 150px;
+}
+.information > h3{
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+.information > p{
+	font-size: 16px;
+	color: #000000;
+}
+.tel{
+	margin: 20px 0;
+}
+.right-content{
+	width: 400px;
+	float: right;
+}
+.sns{
+	width: 210px;
+	margin: 0 auto;
+}
+.sns > h3{
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+.sns-icon{
+	display: inline-block;
+	font-size: 50px;
+	padding: 0 10px;
+}
+
+
+
+
 
 
