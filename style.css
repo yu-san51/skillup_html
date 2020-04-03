@@ -130,3 +130,58 @@ h1{
 	background-position: center;
 }
 
+/*feature*/
+.feature{
+	width: 100%;
+}
+.feature-wrapper{
+	width: 980px;
+	margin: 0 auto;
+	padding: 90px 0;
+}
+.feature-text{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.feature-head{
+	font-size: 32px;
+	color: #000000;
+	padding-bottom: 8px;
+}
+.border{
+	width: 70px;
+	border-bottom: 3px solid #ec715f;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+.feature-text > p{
+	font-size: 16px;
+	color: #000000;
+}
+
+/*feature-box*/
+.feature-boxes::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.ft-box{
+	width: 320px;
+	margin-right:10px;
+	float: left;
+}
+.ft-box:nth-of-type(3n){
+	margin-right: 0;
+}
+.ft-icon{
+	font-size: 60px;
+	text-align: center;
+}
+.ft-box > h3{
+	font-size: 20px;
+	color: #000000;
+	padding: 10px 0;
+	text-align: center;
+}
+
+
