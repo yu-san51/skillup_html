@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+li{
+	list-style: none;
+}
+
+	/*header*/
+header{
+	width: 100%;
+	background-color: #ec715f;
+    height: 70px;
+}
+nav{
+	width: 1024px;
+	margin: 0 auto;
+}
+.logo-img{
+	float: left;
+	height: 70px;
+}
+.header-list{
+	display: inline-block;
+	float: right;
+	line-height: 70px;
+}
+.header-item{
+	display: inline-block;
+	margin: 0 30px;
+	font-size: 16px;
+	color: #fafafa;
+}
+
